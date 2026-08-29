@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Filmlane | Auth</title>
+  <meta name="author" content="Harsh Trivedi">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="login.js">
+</head>
+<body>
+
+<div class="auth-container">
+
+  <div class="brand">
+    <h2>Filmlane</h2>
+    <p>Unlimited Movies, TV Shows & More</p>
+  </div>
+
+  <div class="form-box">
+
+    <!-- LOGIN -->
+    <form id="loginForm">
+      <h3>Sign In</h3>
+
+      <input type="email" id="loginEmail" placeholder="Email address">
+      <input type="password" id="loginPassword" placeholder="Password">
+
+      <button type="submit">Sign In</button>
+
+      <p class="msg" id="loginMsg"></p>
+
+      <span class="switch" onclick="showSignup()">
+        Don’t have an account? <b>Sign Up</b>
+      </span>
+    </form>
+
+    <!-- SIGNUP -->
+    <form id="signupForm" class="hide">
+      <h3>Create Account</h3>
+
+      <input type="text" id="signupName" placeholder="Full name">
+      <input type="email" id="signupEmail" placeholder="Email address">
+      <input type="password" id="signupPassword" placeholder="Password">
+
+      <button type="submit">Sign Up</button>
+
+      <p class="msg" id="signupMsg"></p>
+
+      <span class="switch" onclick="showLogin()">
+        Already have an account? <b>Sign In</b>
+      </span>
+    </form>
+
+  </div>
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>
