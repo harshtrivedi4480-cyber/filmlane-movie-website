@@ -57,4 +57,7 @@ Full Stack Web Developer
 - Email: harshtrivedi4480@gmail.com
 
 ## 📄 License
-This project is open source and available for personal/portfolio use.
+This project is open source and available for personal/portfolio use. 
+
+<img width="1920" height="873" alt="image" src="https://github.com/user-attachments/assets/e17c4009-8cd2-489c-8b79-14950c55f85c" />
+
